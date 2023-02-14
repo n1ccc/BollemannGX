@@ -6,7 +6,7 @@
     },
     "icons":
     {
-        "512": "icon_512.png"
+        "512": "ressources/icons/icon_512.png"
     },
     "manifest_version": 3,
     "mod":
@@ -49,13 +49,13 @@
                 {
                     "gx_accent":
                     {
-                        "h": 85,
+                        "h": 192,
                         "s": 100,
-                        "l": 72
+                        "l": 60
                     },
                     "gx_secondary_base":
                     {
-                        "h": 272,
+                        "h": 211,
                         "s": 64,
                         "l": 16
                     }
@@ -64,15 +64,15 @@
                 {
                     "gx_accent":
                     {
-                        "h": 112,
-                        "s": 80,
-                        "l": 44
+                        "h": 211,
+                        "s": 64,
+                        "l": 16
                     },
                     "gx_secondary_base":
                     {
-                        "h": 272,
+                        "h": 182,
                         "s": 32,
-                        "l": 16
+                        "l": 40
                     }
                 }
             },
