@@ -1,0 +1,99 @@
+{
+    "description": "Bollemann Gaming Mod for Opera GX Browser",
+    "developer":
+    {
+        "name": "n1ccc.dev"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "ressources/webmodding/opera.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.opera.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "Matrix green":
+                {
+                    "path": "ressources/shader/matrix.txt"
+                },
+                "Wave":
+                {
+                    "animation":
+                    {
+                        "duration": 60,
+                        "steps": 3600
+                    },
+                    "path": "ressources/shader/wave.txt"
+                }
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 85,
+                        "s": 100,
+                        "l": 72
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 64,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 112,
+                        "s": 80,
+                        "l": 44
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 32,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "ressources/wallpaper/dark.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "ressources/wallpaper/light.png",
+                    "text_color": "#000000",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "name": "BollemannGX",
+    "version": "1.0"
+}
